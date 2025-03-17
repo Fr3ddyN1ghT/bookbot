@@ -32,7 +32,7 @@ def print_report(file_path, num_words, chars_sorted_list):
     for item in chars_sorted_list:
         if not item["char"].isalpha():
             continue
-        print(f"{item["char"]}: {item["num"]}")
+        print(f"{item['char']}: {item['num']}")
     
     print("============= END ===============")
 
